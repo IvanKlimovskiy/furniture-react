@@ -20,7 +20,7 @@ const SliderImage = styled.img`
   width: 100%;`
 //CSS IN JS
 
-const Slider = ({imagesArray, counter, setCounter, setText, titles, setShowAnimation, showAnimation}) => {
+const Slider = ({imagesArray, counter, setCounter, setText, titles}) => {
   const [slideWidthCounter, setSlideWidthCounter] = useState(0)
 
   const slideWidthRef = useRef(0)

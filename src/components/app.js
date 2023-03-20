@@ -2,6 +2,7 @@ import Header from "./header";
 import styled from "styled-components";
 import Promo from "./promo";
 import Gallery from "./gallery";
+import Footer from "./footer";
 
 // CSS IN JS
 const Content = styled.main`
@@ -21,6 +22,7 @@ function App() {
         <Promo/>
       </Content>
       <Gallery/>
+      <Footer/>
     </>
   );
 }

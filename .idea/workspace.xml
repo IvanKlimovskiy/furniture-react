@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4391cc5-b92c-47b4-881f-09c8424aa7a5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/utils/userContext.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/promo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/promo.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,13 +41,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/projects/Headphones",
+    "last_opened_file_path": "C:/projects/redux",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "inlay.hints",
+    "settings.editor.selected.configurable": "terminal",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -65,6 +67,16 @@
       <workItem from="1678828138213" duration="132000" />
       <workItem from="1678828440734" duration="98000" />
       <workItem from="1678953464030" duration="1695000" />
+      <workItem from="1679353387753" duration="36000" />
+      <workItem from="1679353433852" duration="34000" />
+      <workItem from="1679353617873" duration="62000" />
+      <workItem from="1679353829479" duration="156000" />
+      <workItem from="1679386370568" duration="86000" />
+      <workItem from="1679386464600" duration="828000" />
+      <workItem from="1679387798675" duration="31000" />
+      <workItem from="1679428417673" duration="595000" />
+      <workItem from="1679640636687" duration="3150000" />
+      <workItem from="1679744730836" duration="231000" />
     </task>
     <servers />
   </component>
@@ -81,5 +93,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/header.js</url>
+          <line>61</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

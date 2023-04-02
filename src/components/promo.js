@@ -1,7 +1,8 @@
 import styled from "styled-components";
 import Slider from "./slider";
-import {useEffect, useState} from "react";
+import {useEffect, useState, useContext} from "react";
 import {Transition} from 'react-transition-group';
+import UserContext from "../utils/userContext";
 
 // CSS IN JS
 const WelcomePage = styled.section`
@@ -40,6 +41,8 @@ const Subtitle = styled.p`
 
 // CSS IN JS
 const Promo = () => {
+
+  const [user] = useContext(UserContext)
 
   const duration = 500;
 
@@ -110,7 +113,7 @@ const Promo = () => {
           <Title>
             {!text ? titles[0] : text}
           </Title>
-          <Subtitle>Создайте идеальное простанство</Subtitle>
+          <Subtitle>{`Здравствуй ${user.name}`}</Subtitle>
         </Text>
         <Slider counter={counter}
                 showAnimation={showAnimation}

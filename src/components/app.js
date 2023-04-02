@@ -3,6 +3,8 @@ import styled from "styled-components";
 import Promo from "./promo";
 import Gallery from "./gallery";
 import Footer from "./footer";
+import UserContext from "../utils/userContext";
+import {useState} from "react";
 
 // CSS IN JS
 const Content = styled.main`
@@ -15,16 +17,21 @@ const Content = styled.main`
 // CSS IN JS
 
 function App() {
-  return (
-    <>
-      <Header/>
-      <Content>
-        <Promo/>
-      </Content>
-      <Gallery/>
-      <Footer/>
-    </>
-  );
+
+    const userState = useState({name: 'Иван'})
+
+    return (
+        <>
+            <UserContext.Provider value={userState}>
+                <Header/>
+                <Content>
+                    <Promo/>
+                </Content>
+                <Gallery/>
+                <Footer/>
+            </UserContext.Provider>
+        </>
+    );
 }
 
 export default App;
